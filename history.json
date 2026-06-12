@@ -15,6 +15,22 @@
         "marcher",
         "trajet"
       ]
+    },
+    {
+      "date": "2026-06-12",
+      "category": "Travel & tourism",
+      "subtopic": "First time in Paris",
+      "title": "Une journée à Paris",
+      "vocab": [
+        "visiter",
+        "prendre",
+        "arriver",
+        "photo",
+        "sandwich",
+        "musée",
+        "tableau",
+        "fatigué/e"
+      ]
     }
   ]
 }
