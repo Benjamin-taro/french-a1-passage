@@ -1,6 +1,22 @@
 {
   "entries": [
     {
+      "date": "2026-10-01",
+      "category": "Health & sports",
+      "subtopic": "Visit to the doctor",
+      "title": "Chez le médecin",
+      "vocab": [
+        "médecin",
+        "malade",
+        "fièvre",
+        "tête",
+        "gorge",
+        "médicament",
+        "dormir",
+        "mieux"
+      ]
+    },
+    {
       "date": "2026-09-30",
       "category": "Daily life",
       "subtopic": "Cooking soup with dad",
