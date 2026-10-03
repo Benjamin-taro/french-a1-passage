@@ -1,6 +1,22 @@
 {
   "entries": [
     {
+      "date": "2026-10-03",
+      "category": "Media & entertainment",
+      "subtopic": "Concert in the park",
+      "title": "Un concert au parc",
+      "vocab": [
+        "concert",
+        "musique",
+        "scène",
+        "guitare",
+        "chanter",
+        "chanson",
+        "danser",
+        "glace"
+      ]
+    },
+    {
       "date": "2026-10-02",
       "category": "Relationships",
       "subtopic": "Sunday visit to grandmother",
