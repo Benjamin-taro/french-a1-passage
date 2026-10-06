@@ -138,31 +138,7 @@ Include both English and Japanese in the vocabulary table (English for the "Engl
 
 **IPA column**: Give the standard French IPA transcription in slashes, e.g. `/sak a do/` for *sac à dos*, `/ʒɑ̃til/` for *gentille*. Use liaison-aware transcription when the word is naturally said with a following article/preposition in the example sentence (otherwise transcribe the word in isolation). This column is required for every vocabulary row — do not leave it blank.
 
-### Part 4: Comprehension Questions (3 questions)
-
-Multiple-choice questions modeled after DELF A1 reading section. Each option must include its English and Japanese translation in parentheses.
-
-```
-❓ Compréhension écrite
-
-1. [Question (in French)]
-   a) ... (English / 日本語)
-   b) ... (English / 日本語)
-   c) ... (English / 日本語)
-
-2. ...
-3. ...
-```
-
-### Part 5: Answers and Explanations
-
-```
-✅ Réponses
-
-1. [Correct answer] — [Brief explanation in Japanese]
-2. ...
-3. ...
-```
+> **問題と解答は作らない。** 出力は Part 1〜3（本文・訳・語彙）だけにする。Markdown にも HTML にも、読解問題・解答・解説のセクションを入れない。
 
 ## Execution Steps
 
@@ -174,12 +150,10 @@ Multiple-choice questions modeled after DELF A1 reading section. Each option mus
 5. Generate an A1-level French passage.
 6. Write a natural Japanese translation.
 7. Extract 6–10 key vocabulary words. Cross-reference `vocab-used.json`. Replace overlaps until at most 1 remains.
-8. Create 3 comprehension questions.
-9. Create answers and explanations.
-10. Append to `history.json` and save.
-11. Create `passages/YYYY-MM-DD/` directory.
-12. Write `.md` and `.html` files.
-13. Update `index.html` — prepend a new `<li>` at the top of `<ul class="list">`:
+8. Append to `history.json` and save.
+9. Create `passages/YYYY-MM-DD/` directory.
+10. Write `.md` and `.html` files.
+11. Update `index.html` — prepend a new `<li>` at the top of `<ul class="list">`:
     ```html
     <li data-date="YYYY-MM-DD" data-category="CATEGORY">
       <a href="passages/YYYY-MM-DD/YYYY-MM-DD.html">
@@ -190,9 +164,9 @@ Multiple-choice questions modeled after DELF A1 reading section. Each option mus
     </li>
     ```
     Use `&amp;` for `&` in `data-category` and `<span class="tag">`.
-14. Copy HTML to `today.html` at the repo root.
-15. Do NOT run git. The workflow commits and pushes.
-16. Output confirmation:
+12. Copy HTML to `today.html` at the repo root.
+13. Do NOT run git. The workflow commits and pushes.
+14. Output confirmation:
     `✅ Saved to passages/YYYY-MM-DD/ — [Title]`
 
 ## HTML Styling
@@ -218,7 +192,6 @@ Do not wrap words in the English translation column or anywhere outside `.passag
 
 - Passage is 100–150 words
 - No vocabulary or grammar above A1
-- Questions are clearly answerable from the text
 - Theme differs from recent 7 entries (checked via `history.json`)
 - `history.json` and `vocab-used.json` are updated and saved
 - Every vocabulary row has an IPA transcription, and each vocab word is wrapped with a hover tooltip (`.ipa-word`) at its first occurrence in the HTML passage text
