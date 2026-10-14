@@ -1,6 +1,25 @@
 {
   "entries": [
     {
+      "date": "2026-10-14",
+      "category": "Travel & tourism",
+      "subtopic": "Morning at a café in Lyon",
+      "title": "Un matin au café",
+      "vocab": [
+        "serveur",
+        "carte",
+        "commander",
+        "croissant",
+        "addition"
+      ],
+      "review": [
+        "thé",
+        "chaud",
+        "rue"
+      ],
+      "difficulty": "same"
+    },
+    {
       "date": "2026-10-05",
       "category": "Culture & society",
       "subtopic": "Epiphany galette des Rois",
