@@ -1,6 +1,26 @@
 {
   "entries": [
     {
+      "date": "2026-10-15",
+      "category": "Daily life",
+      "subtopic": "Saturday shopping at the market",
+      "title": "Samedi au marché",
+      "vocab": [
+        "marché",
+        "panier",
+        "acheter",
+        "pomme",
+        "vendeur",
+        "fromage"
+      ],
+      "review": [
+        "légume",
+        "carotte",
+        "délicieux"
+      ],
+      "difficulty": "same"
+    },
+    {
       "date": "2026-10-14",
       "category": "Travel & tourism",
       "subtopic": "Morning at a café in Lyon",
